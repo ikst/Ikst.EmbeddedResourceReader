@@ -5,7 +5,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Ikst</Authors>
     <Company>Ikst</Company>
-    <Version>1.0.6</Version>
+    <VersionPrefix>1.0.7</VersionPrefix>
     <RepositoryUrl>https://github.com/ikst/Ikst.EmbeddedResourceReader</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <Description>Assembly class extension method for loading embedded resources</Description>

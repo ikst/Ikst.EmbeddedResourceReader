@@ -12,7 +12,7 @@ namespace Ikst.EmbeddedResourceReader
     {
 
         /// <summary>
-        /// 指定したリソースのストリームを取得します。
+        /// 指定した埋め込みリソースのストリームを取得します。
         /// </summary>
         /// <param name="asm">リソースを読み込むアセンブリ</param>
         /// <param name="resourcePath">リソースのパス</param>
@@ -32,7 +32,7 @@ namespace Ikst.EmbeddedResourceReader
 
 
         /// <summary>
-        /// 指定したリソースが含む内容を文字列で取得します。
+        /// 指定した埋め込みリソースが含む内容を文字列で取得します。
         /// </summary>
         /// <param name="asm">リソースを読み込むアセンブリ</param>
         /// <param name="resourcePath">リソースのパス</param>
@@ -48,7 +48,7 @@ namespace Ikst.EmbeddedResourceReader
 
 
         /// <summary>
-        /// 指定したリソースが含む内容をバイナリで取得します。
+        /// 指定した埋め込みリソースが含む内容をバイナリで取得します。
         /// </summary>
         /// <param name="asm">リソースを読み込むアセンブリ</param>
         /// <param name="resourcePath">リソースのパス</param>
