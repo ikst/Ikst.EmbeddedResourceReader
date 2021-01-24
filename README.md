@@ -1,5 +1,8 @@
 # Ikst.EmbeddedResourceReader
 
+## nuget
+https://www.nuget.org/packages/Ikst.EmbeddedResourceReader/
+
 ## usefulness
 プロジェクト中に含まれる「埋め込みリソース」に指定したファイルを読み込むのに使用します。
 SQLファイルを埋め込みファイルとして外出しておく場合などに有用です。
@@ -21,6 +24,3 @@ var resTxt = asm.GetEmbeddedResourceString("TestResource.TextFile1.txt");
 
 ![GitHub_Readme1](https://user-images.githubusercontent.com/9896145/105632242-8043d800-5e95-11eb-8c51-37c4196a63ca.png) ![GitHub_Readme2](https://user-images.githubusercontent.com/9896145/105632264-8e91f400-5e95-11eb-9e61-90c57910c24c.png)
 
-
-## nuget
-https://www.nuget.org/packages/Ikst.EmbeddedResourceReader/
