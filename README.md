@@ -8,10 +8,12 @@ SQLファイルを埋め込みファイルとして外出しておく場合な�
 Assemblyクラスの拡張メソッドです。
 リソースを埋め込んだAssemblyを取得して下記の様に利用します。
 
-> using Ikst.EmbeddedResourceReader;
-> 
-> var asm = System.Reflection.Assembly.GetExecutingAssembly();
-> var resTxt = asm.GetEmbeddedResourceString("TestResource.TextFile1.txt");
+```
+using Ikst.EmbeddedResourceReader;
+ 
+var asm = System.Reflection.Assembly.GetExecutingAssembly();
+var resTxt = asm.GetEmbeddedResourceString("TestResource.TextFile1.txt");
+```
 
 ※上記コードは下記の「TextFile1.txt」をテキストとして読み込む際のものです。
 ファイルはプロパティで「埋め込みリソース」として設定しておく必要があります。
