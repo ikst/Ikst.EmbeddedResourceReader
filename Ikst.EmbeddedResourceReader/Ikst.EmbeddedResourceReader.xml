@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ikst.EmbeddedResourceReader</name>
+    </assembly>
+    <members>
+        <member name="T:Ikst.EmbeddedResourceReader.EmbeddedResourceReader">
+            <summary>
+            埋め込みリソースリーダー
+            </summary>
+        </member>
+        <member name="M:Ikst.EmbeddedResourceReader.EmbeddedResourceReader.GetEmbeddedResourceStream(System.Reflection.Assembly,System.String)">
+            <summary>
+            指定したリソースのストリームを取得します。
+            </summary>
+            <param name="asm">リソースを読み込むアセンブリ</param>
+            <param name="resourcePath">リソースのパス</param>
+            <returns>リソースのストリーム</returns>
+        </member>
+        <member name="M:Ikst.EmbeddedResourceReader.EmbeddedResourceReader.GetEmbeddedResourceString(System.Reflection.Assembly,System.String)">
+            <summary>
+            指定したリソースが含む内容を文字列で取得します。
+            </summary>
+            <param name="asm">リソースを読み込むアセンブリ</param>
+            <param name="resourcePath">リソースのパス</param>
+            <returns>リソースに含まれる文字列</returns>
+        </member>
+        <member name="M:Ikst.EmbeddedResourceReader.EmbeddedResourceReader.GetEmbeddedResourceBinary(System.Reflection.Assembly,System.String)">
+            <summary>
+            指定したリソースが含む内容をバイナリで取得します。
+            </summary>
+            <param name="asm">リソースを読み込むアセンブリ</param>
+            <param name="resourcePath">リソースのパス</param>
+            <returns>リソースのバイナリ</returns>
+        </member>
+    </members>
+</doc>

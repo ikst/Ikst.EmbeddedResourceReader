@@ -9,6 +9,7 @@ namespace UnitTest
 {
     public class UnitTest1
     {
+
         Assembly targetAssembly = Assembly.GetExecutingAssembly();
 
         [Fact]

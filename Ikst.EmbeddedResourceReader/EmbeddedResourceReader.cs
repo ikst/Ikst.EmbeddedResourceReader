@@ -28,8 +28,8 @@ namespace Ikst.EmbeddedResourceReader
             {
                 return stream;
             }
-
         }
+
 
         /// <summary>
         /// 指定したリソースが含む内容を文字列で取得します。
@@ -58,9 +58,7 @@ namespace Ikst.EmbeddedResourceReader
             using (var st = GetEmbeddedResourceStream(asm, resourcePath))
             using (var ms = new MemoryStream())
             {
-
                 byte[] buf = new byte[32768];
-
                 while (true)
                 {
                     int read = st.Read(buf, 0, buf.Length);
@@ -74,7 +72,6 @@ namespace Ikst.EmbeddedResourceReader
                         break;
                     }
                 }
-
                 return ms.ToArray();
             }
         }
