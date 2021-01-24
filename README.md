@@ -1,0 +1,2 @@
+# Ikst.EmbeddedResourceReader
+埋め込みリソースを読み込むためのAssemblyクラス拡張メソッド
