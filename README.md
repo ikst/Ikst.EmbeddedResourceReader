@@ -1,11 +1,11 @@
-## nuget
+### nuget
 https://www.nuget.org/packages/Ikst.EmbeddedResourceReader/
 
-## usefulness
+### usefulness
 プロジェクト中に含まれる「埋め込みリソース」に指定したファイルを読み込むのに使用します。
 SQLファイルを埋め込みファイルとして外出しておく場合などに有用です。
 
-## usage
+### usage
 Assemblyクラスの拡張メソッドです。
 リソースを埋め込んだAssemblyを取得して下記の様に利用します。
 
