@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Ikst</Authors>
+    <Company>Ikst</Company>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+
+</Project>
