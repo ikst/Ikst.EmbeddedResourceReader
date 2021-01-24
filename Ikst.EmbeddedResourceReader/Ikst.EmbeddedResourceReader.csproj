@@ -5,11 +5,12 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Ikst</Authors>
     <Company>Ikst</Company>
-    <Version>1.0.4</Version>
+    <Version>1.0.5</Version>
     <RepositoryUrl>https://github.com/ikst/Ikst.EmbeddedResourceReader</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <Description>Assembly class extension method for loading embedded resources</Description>
     <PackageTags>embedded resources</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
