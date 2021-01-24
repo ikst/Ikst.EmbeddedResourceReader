@@ -1,5 +1,3 @@
-# Ikst.EmbeddedResourceReader
-
 ## nuget
 https://www.nuget.org/packages/Ikst.EmbeddedResourceReader/
 
