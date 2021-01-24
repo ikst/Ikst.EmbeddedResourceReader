@@ -8,6 +8,7 @@ SQLファイルを埋め込みファイルとして外出しておく場合な�
 Assemblyクラスの拡張メソッドです。
 リソースを埋め込んだAssemblyを取得して下記の様に利用します。
 
+
 ```C#
 using Ikst.EmbeddedResourceReader;
  
