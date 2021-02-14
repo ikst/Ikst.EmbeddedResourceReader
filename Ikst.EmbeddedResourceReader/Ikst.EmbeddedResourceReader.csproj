@@ -8,9 +8,12 @@
     <VersionPrefix>1.0.7</VersionPrefix>
     <RepositoryUrl>https://github.com/ikst/Ikst.EmbeddedResourceReader</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <Description>Assembly class extension method for loading embedded resources</Description>
+    <Description>System.Reflection.Assembly class extension method for loading embedded resources</Description>
     <PackageTags>embedded resources</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Version>1.0.8</Version>
+    <PackageReleaseNotes>Please check the following.
+https://github.com/ikst/Ikst.EmbeddedResourceReader/blob/master/README.md</PackageReleaseNotes>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
