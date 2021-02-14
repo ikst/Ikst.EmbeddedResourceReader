@@ -5,19 +5,18 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Ikst</Authors>
     <Company>Ikst</Company>
-    <VersionPrefix>1.0.7</VersionPrefix>
     <RepositoryUrl>https://github.com/ikst/Ikst.EmbeddedResourceReader</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <Description>System.Reflection.Assembly class extension method for loading embedded resources</Description>
     <PackageTags>embedded resources</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Version>1.0.8</Version>
+    <Version>1.0.9</Version>
     <PackageReleaseNotes>Please check the following.
 https://github.com/ikst/Ikst.EmbeddedResourceReader/blob/master/README.md</PackageReleaseNotes>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DocumentationFile>C:\Users\oihso\source\repos\Ikst.EmbeddedResourceReader\Ikst.EmbeddedResourceReader\Ikst.EmbeddedResourceReader.xml</DocumentationFile>
+    <DocumentationFile>C:\Users\root\Source\Repos\Ikst.EmbeddedResourceReader\Ikst.EmbeddedResourceReader\Ikst.EmbeddedResourceReader.xml</DocumentationFile>
   </PropertyGroup>
 
 </Project>
