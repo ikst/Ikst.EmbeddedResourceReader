@@ -3,14 +3,14 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net5.0</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Authors>Ikst</Authors>
-    <Company>Ikst</Company>
+    <Authors>ikst</Authors>
+    <Company>ikst</Company>
     <RepositoryUrl>https://github.com/ikst/Ikst.EmbeddedResourceReader</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <Description>System.Reflection.Assembly class extension method for loading embedded resources</Description>
     <PackageTags>embedded resources</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Version>1.0.9</Version>
+    <Version>1.0.10</Version>
     <PackageReleaseNotes>Please check the following.
 https://github.com/ikst/Ikst.EmbeddedResourceReader/blob/master/README.md</PackageReleaseNotes>
   </PropertyGroup>
