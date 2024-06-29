@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net6.0</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;net8.0</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>ikst</Authors>
     <Company>ikst</Company>
@@ -10,7 +10,7 @@
     <Description>System.Reflection.Assembly class extension method for loading embedded resources</Description>
     <PackageTags>embedded resources</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Version>1.0.11</Version>
+    <Version>1.1</Version>
     <PackageReleaseNotes>Please check the following.
 https://github.com/ikst/Ikst.EmbeddedResourceReader/blob/master/README.md</PackageReleaseNotes>
   </PropertyGroup>
