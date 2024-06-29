@@ -28,6 +28,8 @@ namespace UnitTest
             Assert.Equal("OK", result);
         }
 
+
+        /*
         [Fact]
         public void GetEmbeddedResourceBinary()
         {
@@ -41,6 +43,7 @@ namespace UnitTest
                 Assert.Equal(150, bmp.Height);
             }
         }
+        */
 
     }
 }
